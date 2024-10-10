@@ -8,7 +8,7 @@ import { ScoringChampion } from "./scoring-champion";
 })
 export class ScoringChampionService {
 
-    private url = 'api/scoring-champions/'
+    private url = 'api/scoringChampions/'
 
     constructor(private httpClient: HttpClient) { }
 

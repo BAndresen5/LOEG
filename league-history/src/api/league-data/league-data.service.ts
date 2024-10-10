@@ -14,7 +14,53 @@ export class LeagueDataService implements InMemoryDbService {
         {
           id: 1,
           name: 'Bryce Andresen',
-          years: ['2011', '2012', '2013', '2014', '2015', '2018', '2019', '2020', '2021', '2022', '2023', '2024']
+          years: ['2011', '2012', '2013', '2014', '2015', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+          standings: [
+            {
+              year: '2011',
+              place: 1
+            },
+            {
+              year: '2012',
+              place: 1
+            },
+            {
+              year: '2014',
+              place: 1
+            },
+            {
+              year: '2015',
+              place: 1
+            },
+            {
+              year: '2018',
+              place: 1
+            },
+            {
+              year: '2019',
+              place: 1
+            },
+            {
+              year: '2020',
+              place: 1
+            },
+            {
+              year: '2021',
+              place: 1
+            },
+            {
+              year: '2022',
+              place: 1
+            },
+            {
+              year: '2023',
+              place: 1
+            },
+            {
+              year: '2024',
+              place: 1
+            }
+          ]
         },
         {
           id: 2,

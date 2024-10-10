@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { OwnerService } from '../../api/owner/owner.service';
 import { Owner } from '../../api/owner/owner';
 import { TableModule } from 'primeng/table';
@@ -14,7 +14,7 @@ import { PipesModule } from '../pipes/pipes.module';
   templateUrl: './members.component.html',
   styleUrl: './members.component.scss'
 })
-export class MembersComponent {
+export class MembersComponent implements OnInit {
 
   private ownerService = inject(OwnerService)
 

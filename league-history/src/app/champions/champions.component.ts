@@ -25,7 +25,7 @@ export class ChampionsComponent implements OnInit {
   owners: Owner[] = []
 
   ngOnInit() {
-    this.championService.getScoringChampions().subscribe((response) => {
+    this.championService.getChampions().subscribe((response) => {
       this.champions = response
     })
     this.ownerService.getOwners().subscribe((response) => {

@@ -12,7 +12,7 @@ export class ChampionService {
 
     constructor(private httpClient: HttpClient) { }
 
-    getScoringChampions(): Observable<Champion[]> {
+    getChampions(): Observable<Champion[]> {
         return this.httpClient.get<Champion[]>(this.url).pipe(
             retry(2),
             catchError((error: HttpErrorResponse) => {
